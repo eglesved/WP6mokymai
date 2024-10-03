@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.site-header {
+        width: 100%;
+        max-width: 80rem;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        position: relative;
+       
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration:none;
+    list-style-type: none;
+    color: #4e4b66;
+    font-family: "Arial", sans-serif;
+    font: size 16px;
+    justify-content:space-between;
+    padding: 5px;
+    display: flex;
+    gap:10px;
+
+}
+.contact-button {
+  border:1px solid coral;
+  border-radius: 8px; 
+  text-decoration: none;
+  color: rgb(194, 77, 77);
+  padding: 16px 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  display:flex;
+  }
+.title {
+    padding:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    flex-direction: column;
+    }
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    color: #4e4b66;
+    font-size: 18px;
+
+}   
+.container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.content {
+    width: 100%;
+    margin-bottom: clamp(2.5rem, 5vw, 3.25rem);
+    display: flex;
+    align-items: center;
+  }
+  .button-solid {
+    background-color: coral;
+    color:white;
+    text-decoration: none;  
+    text-align: center;
+    display:inline-block;
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    min-width: 14rem;
+    margin-top: 12px;
+  }
+    .hero {
+    padding: var(--section-padding);
+    overflow: hidden;
+    position: relative;
+  }
+  .hero-image {
+    width:1280px;
+    height: 510px;
+    border-radius: 2.5rem;
+    object-fit: cover;
+  }
+  .card-group {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    gap:16px;
+    justify-content:center;
+    padding: 0;
+    gap: clamp(1rem, 2vw, 1.25rem);
+    
+  }
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:650;
+    color:black;
+  }
+  p {
+        font-family: Arial, Helvetica, sans-serif;
+        color:#4e4b66;
+  }
+  

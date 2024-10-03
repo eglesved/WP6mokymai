@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .black-header {
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+  }
+  
+  a {
+    color: white;
+    margin: 16px;
+    text-decoration: none;
+  }
+  .black-header {
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+  }
