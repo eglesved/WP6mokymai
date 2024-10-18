@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("leaves.png");
+    background-size: 100%;
+    color:coral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    text-align: center;
+}
+
+  
+  .container {
+    width:400px;
+    margin: 40px auto;
+    border: 2px solid rgb(221, 164, 164);
+    border-radius: 5px;
+    height: 60vh;
+    padding: 20px;  
+
+}
+label {
+    display: block; 
+    margin-bottom: 10px; 
+  }  
+input[type="text"],
+input[type="email"], textarea {
+    width: 80%; 
+    padding: 10px;
+    border: 1px solid #943a3a; 
+    border-radius: 3px;
+  }
+  button[type="submit"] {
+    background-color:#943a3a; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+   
