@@ -30,10 +30,12 @@ input[type="email"], textarea {
     border-radius: 3px;
   }
   button[type="submit"] {
-    background-color:#943a3a; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgb(247, 239, 239);
+    color: rgb(54, 34, 34);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
   }
-   
